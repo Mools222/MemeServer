@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(144, 238, 144, 0.4);
+}
+
+th {
+    background-color: darkgreen;
+    color: white;
+    /*border-color: red;*/
+}
