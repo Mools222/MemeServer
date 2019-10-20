@@ -22,5 +22,4 @@ tr:nth-child(odd) {
 th {
     background-color: darkgreen;
     color: white;
-    /*border-color: red;*/
 }
